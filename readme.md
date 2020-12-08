@@ -49,11 +49,11 @@ Request :
 ```json 
 {
     "params":{
-		"name":"string",
-		"email":"string",
-		"password_1":"string",
-		"password_2":"string"
-	}
+	   "name":"string",
+	   "email":"string",
+	   "password_1":"string",
+	   "password_2":"string"
+    }
 }
 ```
 
