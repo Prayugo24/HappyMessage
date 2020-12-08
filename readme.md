@@ -96,8 +96,8 @@ Request :
 ```json 
 {
     "params":{
-		"email":"string",
-		"password":"string"
+       "email":"string",
+       "password":"string"
 	}
 }
 ```
@@ -141,9 +141,9 @@ Request :
 ```json 
 {
     "params":{
-		"from":"email",
-		"to":"email",
-		"message":"string"	
+      "from":"email",
+      "to":"email",
+      "message":"string"	
 	}
 }
 ```
@@ -190,8 +190,8 @@ Request :
 ```json 
 {
     "params":{
-        "from":"email",
-	    "to":"email",
+       "from":"email",
+       "to":"email",
     }
 }
 ```
@@ -239,7 +239,7 @@ Request :
 ```json 
 {
     "params":{
-		"email":"email",
+       "email":"email",
 	}
 }
 ```
