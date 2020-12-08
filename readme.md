@@ -1,3 +1,37 @@
+# Introduce For installation
+After you clone this project, do the following:
+
+```json 
+{
+    # go into the project
+    cd HappyMessage
+
+    # go into the project
+    cd HappyMessage
+
+    # create a .env file
+    cp .env.example .env
+
+    # install composer dependencies
+    composer update
+
+    # create a local MySQL database (make sure you have MySQL up and running)
+    create db with name db chat_db
+
+    # add the database connection config to your .env file
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_CONNECTION=mysql
+    DB_DATABASE=chat_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+    # run the migration files to generate the schema
+    php artisan migrate
+}
+```
+
+
 # API Spec
 
 ## Authentication
