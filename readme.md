@@ -37,7 +37,7 @@ After you clone this project, do the following:
 ```
 # Note
 ```bash
-    1. before your send message you must have account user in your database, and make sure the people you want to send messages to are also listed in the database
+    1. before your send message you must have account user in your database, and make sure the people you want to send messages must listed in the database
     2. you can send messege and reply message with Endpoint send message
     3. you can list all messages in a conversation between them and another with endpoint Receive Message Single List
     4. you can list all their conversations (if user A has been chatting with user C & D, the list for A will shows A-C & A-D) with endpoint list all message
