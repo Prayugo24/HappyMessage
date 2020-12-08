@@ -190,9 +190,9 @@ Request :
 ```json 
 {
     "params":{
-       "from":"email",
-	   "to":"email",
-	}
+     "from":"email",
+	 "to":"email",
+    }
 }
 ```
 
