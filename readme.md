@@ -189,10 +189,10 @@ Request :
 
 ```json 
 {
-    "params":{
-		"from":"email",
-		"to":"email",
-	}
+"params":{
+	"from":"email",
+	"to":"email",
+}
 }
 ```
 
@@ -213,13 +213,14 @@ Response :
         },
         "Body": {
             "Result": [
-            {
-                "id": "int",
-                "FromName": "string",
-                "ToName": "string",
-                "Text": "string",
-                "Time": "times"
-            }
+                {
+                    "id": "int",
+                    "FromName": "string",
+                    "ToName": "string",
+                    "Text": "string",
+                    "Time": "times"
+                }
+            ]
         }
     }
 }
@@ -260,13 +261,14 @@ Response :
         },
         "Body": {
             "Result": [
-            {
-                "id": "int",
-                "Name": "string",
-                "email": "string",
-                "Text": "string",
-                "Time": "times"
-            },
+                {
+                    "id": "int",
+                    "Name": "string",
+                    "email": "string",
+                    "Text": "string",
+                    "Time": "times"
+                }
+            ]
         }
     }
 }
