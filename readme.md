@@ -3,7 +3,7 @@ After you clone this project, do the following:
 
 ```json 
 {
-    # go into the project
+    #go into the project
     cd HappyMessage
 
     # go into the project
