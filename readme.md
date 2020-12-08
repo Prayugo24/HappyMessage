@@ -25,8 +25,15 @@ After you clone this project, do the following:
     # run the migration files to generate the schema
     php artisan migrate
 
-    # For run application you can use php artisan (for port you can decide for yourself)
+    # For run application you can use php -S (for port you can decide for yourself)
     php -S localhost:8000 -t public
+```
+
+# POST COLLECTION
+```bash
+    #you can import post collection with this link
+    https://www.getpostman.com/collections/effbd36da7fa48bc77b5
+
 ```
 
 
@@ -38,7 +45,7 @@ some Api features must use this authentication
 
 Request :
 - Header :
-    - X-Token : "get scret token in tabel user, in raw remember token"
+    - X-Token : "get scret token in tabel user, in raw remember token, data remember token must be same with data from user"
 
 ## Register User
 
@@ -53,7 +60,7 @@ Request :
 {
     "params":{
 	   "name":"string",
-	   "email":"string",
+	   "email":"email",
 	   "password_1":"string",
 	   "password_2":"string"
     }
@@ -99,7 +106,7 @@ Request :
 ```json 
 {
     "params":{
-       "email":"string",
+       "email":"email",
        "password":"string"
    }
 }
