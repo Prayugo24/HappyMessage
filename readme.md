@@ -98,7 +98,7 @@ Request :
     "params":{
        "email":"string",
        "password":"string"
-	}
+   }
 }
 ```
 
@@ -143,8 +143,8 @@ Request :
     "params":{
       "from":"email",
       "to":"email",
-      "message":"string"	
-	}
+      "message":"string"
+    }
 }
 ```
 
@@ -240,7 +240,7 @@ Request :
 {
     "params":{
        "email":"email",
-	}
+    }
 }
 ```
 
