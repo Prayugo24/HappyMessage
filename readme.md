@@ -1,8 +1,7 @@
 # Introduce For installation
 After you clone this project, do the following:
 
-```json 
-{
+```bash
     #go into the project
     cd HappyMessage
 
@@ -28,7 +27,6 @@ After you clone this project, do the following:
 
     # run the migration files to generate the schema
     php artisan migrate
-}
 ```
 
 
