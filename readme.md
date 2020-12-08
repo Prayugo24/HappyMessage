@@ -24,6 +24,9 @@ After you clone this project, do the following:
 
     # run the migration files to generate the schema
     php artisan migrate
+
+    # For run application you can use php artisan (for port you can decide for yourself)
+    php -S localhost:8000 -t public
 ```
 
 
