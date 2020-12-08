@@ -38,8 +38,8 @@ After you clone this project, do the following:
 # Note
 ```bash
     1. you can send messege and reply message with Endpoint send message
-    2. you can list all messages in a conversation between them and another with endpoint list all message
-    3. you can list all their conversations (if user A has been chatting with user C & D, the list for A will shows A-C & A-D) with endpoint Receive Message Single List
+    2. you can list all messages in a conversation between them and another with endpoint Receive Message Single List
+    3. you can list all their conversations (if user A has been chatting with user C & D, the list for A will shows A-C & A-D) with endpoint list all message
 
 ```
 # Api Spesification
